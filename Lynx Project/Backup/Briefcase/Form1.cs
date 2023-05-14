@@ -196,9 +196,9 @@ namespace Lynx
         //on opening check if Lynx is the default editor for .bsp's, tick accordingly
         private void extrasToolStripMenuItem_DropDownOpening(object sender, EventArgs e)
         {
-            //RegistryKey reg = Registry.ClassesRoot.CreateSubKey(".bsp");
-            //brieftool.Checked = (reg.GetValue("", "").ToString() == @"Prodigy\Lynx_v1");
-            //reg.Close();
+            RegistryKey reg = Registry.ClassesRoot.CreateSubKey(".bsp");
+            brieftool.Checked = (reg.GetValue("", "").ToString() == @"Prodigy\Lynx_v1");
+            reg.Close();
         }
 
         private void levelInfoToolStripMenuItem_Click(object sender, EventArgs e)

@@ -1,0 +1,16 @@
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Debug\Lynx.exe.config
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Debug\Lynx.exe
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Debug\Lynx.pdb
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.csproj.AssemblyReference.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.csproj.SuggestedBindingRedirects.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.Form1.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.LevelInfo.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.Help.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.Mapform.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.Settings.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.xzpform.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.Properties.Resources.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.csproj.GenerateResource.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.csproj.CoreCompileInputs.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.exe
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Debug\Lynx.pdb

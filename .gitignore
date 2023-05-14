@@ -1,0 +1,63 @@
+.idea
+cmake-build-debug
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+*.Cache
+*.cache
+
+# Executables
+*.exe
+*.out
+*.app
+*.db
+*.opendb
+*.ipch
+*.pd
+*.bak
+*.DS_Store
+
+# Folders
+.vs/
+bin/
+bins/
+build/
+userdata/
+out/
+deps/
+deps/desktop.ini
+imgui.ini
+
+CMakeFiles/
+CMakeCache.txt
+
+binaries
+binaries/
+intermediate
+intermediate/
+
+data/log.txt

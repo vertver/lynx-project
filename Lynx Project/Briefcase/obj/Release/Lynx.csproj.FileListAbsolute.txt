@@ -13,3 +13,19 @@ C:\Users\Big Boss\Desktop\lynx\Lynx Project\Briefcase\obj\Release\Lynx.Settings.
 C:\Users\Big Boss\Desktop\lynx\Lynx Project\Briefcase\obj\Release\Lynx.xzpform.resources
 C:\Users\Big Boss\Desktop\lynx\Lynx Project\Briefcase\obj\Release\Lynx.Properties.Resources.resources
 C:\Users\Big Boss\Desktop\lynx\Lynx Project\Briefcase\obj\Release\Lynx.csproj.GenerateResource.Cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Release\Lynx.exe.config
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Release\Lynx.exe
+D:\Sources\lynx-project\Lynx Project\Briefcase\bin\Release\Lynx.pdb
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.csproj.AssemblyReference.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.csproj.SuggestedBindingRedirects.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.Form1.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.LevelInfo.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.Help.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.Mapform.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.Settings.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.xzpform.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.Properties.Resources.resources
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.csproj.GenerateResource.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.csproj.CoreCompileInputs.cache
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.exe
+D:\Sources\lynx-project\Lynx Project\Briefcase\obj\Release\Lynx.pdb

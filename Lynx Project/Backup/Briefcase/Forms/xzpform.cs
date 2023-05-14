@@ -10,9 +10,6 @@ using System.Collections;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
-using static Lynx.Mapform;
-using System.Security.Cryptography;
-using System.Reflection;
 
 namespace Lynx
 {
@@ -299,74 +296,19 @@ namespace Lynx
             return str;
         }
 
-        private void SaveNode(ref BinaryReader reader, TreeNode node, string basePath)
-        {
-            string nodePath;
-            if (node.FullPath.IndexOf("Root\\") != -1)
-            {
-                nodePath = basePath + "\\" + node.FullPath.Substring(node.FullPath.IndexOf("Root\\") + 5);
-            }
-            else
-            {
-                nodePath = basePath + "\\" + node.FullPath;
-            }
-
-            ItemInfo inf = (ItemInfo)node.Tag;
-            if (inf.Filepath == null)
-            {
-                Directory.CreateDirectory(nodePath);
-                foreach (TreeNode subNode in node.Nodes)
-                {
-                    SaveNode(ref reader, subNode, basePath);
-                }
-            }
-            else
-            {
-                reader.BaseStream.Position = inf.Offset;
-                byte[] ba = new byte[inf.Filesize];
-                ba = reader.ReadBytes(inf.Filesize);
-                BinaryWriter bw = new BinaryWriter(new FileStream(nodePath, FileMode.Create, FileAccess.Write, FileShare.ReadWrite));
-                bw.Write(ba);
-                bw.Close();
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            var fbd = new FolderBrowserDialog();
-            DialogResult result = fbd.ShowDialog();
-            if (result != DialogResult.OK) {
-                return;
-            }
-
-            string savePath = fbd.SelectedPath;
-            BinaryReader br = new BinaryReader(new FileStream(xzp.Filepath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite));
-            foreach (TreeNode node in tv3.SelectedNode.Nodes)
-            {
-                SaveNode(ref br, node, savePath);
-            }
-
-            br.Close();
+            ExtractFile(null, true);
         }
 
-        private void ExtractFile(string extract2, bool msg)
+        public void ExtractFile(string extract2, bool msg)
         {
             if (listv.FocusedItem != null)
             {
                 if (extract2 == null)
                 {
                     string ext = listv.FocusedItem.Text.Substring(listv.FocusedItem.Text.LastIndexOf(".") + 1);
-                    var idx = listv.FocusedItem.Text.LastIndexOf(".");
-                    string name;
-                    if (idx > 0)  
-                    {
-                        name = listv.FocusedItem.Text.Remove(idx);
-                    }
-                    else
-                    {
-                        name = listv.FocusedItem.Text;
-                    }
-
+                    string name = listv.FocusedItem.Text.Remove(listv.FocusedItem.Text.LastIndexOf("."));
                     s.Filter = ext + " files (*." + ext + ")|*." + ext + "|All Files (*.*)|*.*";
                     s.FileName = name;
                     if (s.ShowDialog() == DialogResult.Cancel) return;
